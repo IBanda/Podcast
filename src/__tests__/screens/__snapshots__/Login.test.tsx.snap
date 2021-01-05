@@ -1,0 +1,389 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the login screen 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    accessibilityIgnoresInvertColors={true}
+    style={
+      Object {
+        "flex": 1,
+        "paddingBottom": 50,
+        "paddingRight": 30,
+        "resizeMode": "cover",
+      }
+    }
+  >
+    <Image
+      source={1}
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "height": undefined,
+            "width": undefined,
+          },
+          undefined,
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "backgroundColor": "black",
+            "borderBottomRightRadius": 20,
+            "overflow": "hidden",
+            "paddingHorizontal": 30,
+            "paddingVertical": 30,
+          },
+        ]
+      }
+    >
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": 72,
+            "width": 156,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+            "marginVertical": 20,
+            "maxWidth": "70%",
+          }
+        }
+      >
+        Episodic series of digital audio
+      </Text>
+      <View
+        style={
+          Object {
+            "justifyContent": "space-between",
+            "marginBottom": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomRightRadius": 0,
+              "borderColor": "#fff",
+              "borderRadius": 10,
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "marginBottom": 10,
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <Image
+            source={1}
+            style={
+              Object {
+                "height": 15,
+                "left": 15,
+                "marginRight": 5,
+                "position": "absolute",
+                "width": 15,
+              }
+            }
+          />
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="E-mail address"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "color": "#fff",
+                "height": "100%",
+                "padding": 15,
+                "paddingLeft": 40,
+                "width": "100%",
+              }
+            }
+            textContentType="emailAddress"
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomRightRadius": 0,
+              "borderColor": "#fff",
+              "borderRadius": 10,
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "marginBottom": 10,
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <Image
+            source={1}
+            style={
+              Object {
+                "height": 15,
+                "left": 15,
+                "marginRight": 5,
+                "position": "absolute",
+                "width": 15,
+              }
+            }
+          />
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Password"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "color": "#fff",
+                "height": "100%",
+                "padding": 15,
+                "paddingLeft": 40,
+                "width": "100%",
+              }
+            }
+            textContentType="password"
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "borderRadius": 25,
+              "marginBottom": 20,
+              "shadowOffset": Object {
+                "height": -5,
+                "width": 0,
+              },
+              "shadowOpacity": 0.44,
+              "shadowRadius": 20,
+            },
+            Object {
+              "shadowColor": "#3369FF",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 25,
+                "elevation": 16,
+                "paddingVertical": 10,
+                "shadowOffset": Object {
+                  "height": 5,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.2,
+                "shadowRadius": 20,
+              },
+              Object {
+                "backgroundColor": "#3369FF",
+                "shadowColor": "#3369FF",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+              }
+            }
+          >
+            Login
+          </Text>
+        </View>
+      </View>
+      <Text
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "color": "#fff",
+            "margin": "auto",
+            "marginBottom": 20,
+            "marginTop": 0,
+            "textDecorationLine": "underline",
+          }
+        }
+      >
+        Forgot Password?
+      </Text>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "borderRadius": 25,
+              "marginBottom": 20,
+              "shadowOffset": Object {
+                "height": -5,
+                "width": 0,
+              },
+              "shadowOpacity": 0.44,
+              "shadowRadius": 20,
+            },
+            Object {
+              "shadowColor": "#2B5D95",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 25,
+                "elevation": 16,
+                "paddingVertical": 10,
+                "shadowOffset": Object {
+                  "height": 5,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.2,
+                "shadowRadius": 20,
+              },
+              Object {
+                "backgroundColor": "#2B5D95",
+                "shadowColor": "#2B5D95",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+              }
+            }
+          >
+            Login with Facebook
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "borderRadius": 25,
+              "marginBottom": 20,
+              "shadowOffset": Object {
+                "height": -5,
+                "width": 0,
+              },
+              "shadowOpacity": 0.44,
+              "shadowRadius": 20,
+            },
+            Object {
+              "shadowColor": "#FF334B",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 25,
+                "elevation": 16,
+                "paddingVertical": 10,
+                "shadowOffset": Object {
+                  "height": 5,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.2,
+                "shadowRadius": 20,
+              },
+              Object {
+                "backgroundColor": "#FF334B",
+                "shadowColor": "#FF334B",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+              }
+            }
+          >
+            Register new account
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

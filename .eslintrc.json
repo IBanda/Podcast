@@ -10,5 +10,9 @@
     "prettier",
     "prettier/@typescript-eslint",
     "prettier/react"
-  ]
+  ],
+  "rules": {
+    "@typescript-eslint/no-use-before-define": "off",
+    "global-require": "warn"
+  }
 }
